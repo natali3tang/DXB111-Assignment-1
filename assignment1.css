@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("photos/grassybackground.JPG");
+    background-repeat: no-repeat;
+    background-size: 100% 123%;
+    margin-inline: 20px;
+    margin-top: 10px;
+    padding-top: 20px;
+    position: relative;
+}
+
+nav li {
+    display: inline-block;
+    padding: 8px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 16px;
+    font-family: 'Fraunces', 'sans-serif';
+    font-size: large;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+p {
+    font-family: 'Fraunces', sans-serif;
+    color: black;
+    padding: 10px;
+    font-size: large;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'Fraunces', sans-serif;
+    color: black;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-family: 'Fraunces', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+    color: rgb(90, 221, 250);
+}
+
+div.photos {
+    display: block;
+    padding: 20px;
+    width: 85%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: solid 0;
+    align-items: center;
+}
+
+div.socialmedia {
+    display: block;
+    padding: 32px;
+    margin-top: 5%;
+    width: 60%;
+    background-color: white;
+    border-radius: 10px;
+    border: solid 0;
+    margin-inline: auto;
+}
+
+div.socialmedia i {
+    display: block;
+    font-size: 60px;
+}
+
+.gallery {
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+    font-family: 'Fraunces', sans-serif;
+    color: black;
+    font-family: 'Fraunces', 'sans-serif';
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+li {
+    padding: 10px;
+}
+
+#active {
+    box-shadow: 0 0 30px white;
+    border-radius: 100vmax;
+}
+
+#active:active {
+    background-color: yellow;
+}
+
+.cloud {
+    position: relative;
+    margin-top: 10px;
+}
+
+.cloud h1 {
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+}
+
+figure {
+    margin: auto;
+    border-radius: 10px;
+    display: block;
+    padding: 20px;
+    width: 85%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: solid 0;
+    align-items: center;
+}
+
+figcaption {
+    border: rgb(147, 212, 244) solid 1px;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Fraunces', 'sans-serif';
+    padding: 2px;
+    text-align: center;
+}
+
+.works-images,
+.image-index {
+    padding-bottom: 2em;
+}
+
+.works-images figure:not(:first-child) {
+    margin-top: 10px;
+}
+
+.date-of-photo {
+    color: grey;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    color: black;
+    text-align: center;
+    left: -20px;
+    width: calc(100% + 40px);
+}
